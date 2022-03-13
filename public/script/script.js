@@ -4,6 +4,7 @@ const loadTime = () => {
     let h = today.getHours();
     let m = today.getMinutes();
     let s = today.getSeconds();
+    h = addZeroUntilUnit(h)
     m = addZeroUntilUnit(m);
     s = addZeroUntilUnit(s);
     document.getElementById('clock').innerHTML = h + ":" + m + ":" + s;
@@ -11,12 +12,12 @@ const loadTime = () => {
 }
 
 const addZeroUntilUnit = (i) => {
-    if (i < 10) {
-        i = "0" + i;
+        if (i < 10) {
+            i = "0" + i;
+        }
+        return i;
     }
-    return i;
-}
-// toDo list
+    // toDo list
 document.querySelector('#push').onclick = function() {
 
     if (document.querySelector('#taskcreate input').value.length == 0) {
