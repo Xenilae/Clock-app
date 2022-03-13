@@ -17,3 +17,87 @@ html {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+
+.container_2{
+    width: 10vw;
+    top: 50vh;
+    margin-left: 50vw;
+    border-radius: 10px;
+    min-width: 450px;
+    min-height: 100px;
+    transform: translate(-50%,-50%);
+}
+
+#taskcreate{
+    position: relative;
+    padding: 30px 20px;
+}
+#taskcreate input{
+    width: 20vw;
+    height: 45px;
+    padding: 12px;
+    color: #111111;
+    font-weight: 500;
+    position: relative;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border: 2px solid #d1d3d4;
+}
+
+#taskcreate input:focus{
+    outline: none;
+    border-color: #0d75ec;
+}
+#taskcreate button{
+    position: relative;
+    float: right;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #0d75ec;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    width: 5vw;
+    height: 5vh;
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+}
+
+#tasks{
+    border-radius: 10px;
+    width: 30vw;
+    position: relative;
+    padding: 30px 20px;
+    margin-top: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid #939697;
+    cursor: pointer;
+    background-color: #c5e1e6;
+    height: 5vh;
+    margin-bottom: 8px;
+    padding: 5px 10px;
+    display: flex;
+}
+.task span{
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: #0a2ea4;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    height: 50vh;
+    width: 20vw;
+    border-radius: 5px;
+}
+
