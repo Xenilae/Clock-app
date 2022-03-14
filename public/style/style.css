@@ -79,9 +79,8 @@ html {
     border-radius: 5px;
     align-items: center;
     justify-content: space-between;
-    border: 1px solid #939697;
+    border: 1px solid black;
     cursor: pointer;
-    background-color: #c5e1e6;
     height: 5vh;
     margin-bottom: 8px;
     padding: 5px 10px;
@@ -97,7 +96,6 @@ html {
 .task button {
     background-color: #0a2ea4;
     color: #ffffff;
-    border: none;
     cursor: pointer;
     outline: none;
     height: 50vh;

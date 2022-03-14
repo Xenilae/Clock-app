@@ -30,7 +30,7 @@ document.querySelector('#push').onclick = function() {
                     ${document.querySelector('#taskcreate input').value}
                 </span>
                 <button class="delete">
-                    <i class="far fa-trash-alt"></i>
+                    <i class="far fa-trash-alt">Done</i>
                 </button>
             </div>
         `;
