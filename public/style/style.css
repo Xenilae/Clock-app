@@ -19,23 +19,23 @@ html {
 }
 
 .container_2 {
-    width: 10vw;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    margin-left: 55vw;
     top: 50vh;
-    margin-left: 50vw;
     border-radius: 10px;
-    min-width: 450px;
-    min-height: 100px;
     transform: translate(-50%, -50%);
 }
 
 #taskcreate {
-    position: relative;
+    position: absolute;
     padding: 30px 20px;
 }
 
 #taskcreate input {
     width: 20vw;
-    height: 45px;
+    height: 4vh;
     padding: 12px;
     color: #111111;
     font-weight: 500;
@@ -61,7 +61,7 @@ html {
     color: #ffffff;
     cursor: pointer;
     outline: none;
-    width: 5vw;
+    width: 10vw;
     height: 5vh;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
