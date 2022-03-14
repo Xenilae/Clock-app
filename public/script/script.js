@@ -23,6 +23,9 @@ document.querySelector('#push').onclick = function() {
     if (document.querySelector('#taskcreate input').value.length == 0) {
         alert("Please Enter a Task")
 
+    } else if (document.querySelector('#taskcreate input').value.length > 10) {
+
+        alert("The text is to big")
     } else {
         document.querySelector('#tasks').innerHTML += `
             <div class="task">
