@@ -23,23 +23,21 @@ html {
     grid-template-columns: 1fr 1fr;
     align-items: center;
     margin-left: 55vw;
-    top: 50vh;
-    border-radius: 10px;
     transform: translate(-50%, -50%);
 }
 
 #taskcreate {
     position: absolute;
     padding: 30px 20px;
+    margin-bottom: 300px;
 }
 
 #taskcreate input {
-    width: 20vw;
+    width: 360px;
     height: 4vh;
     padding: 12px;
     color: #111111;
     font-weight: 500;
-    position: relative;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
     font-size: 15px;
@@ -53,6 +51,7 @@ html {
 
 #taskcreate button {
     position: relative;
+    width: 180px;
     float: right;
     font-weight: 500;
     font-size: 16px;
@@ -61,8 +60,7 @@ html {
     color: #ffffff;
     cursor: pointer;
     outline: none;
-    width: 10vw;
-    height: 5vh;
+    height: 6vh;
     border-radius: 5px;
     font-family: 'Poppins', sans-serif;
 }
@@ -83,7 +81,7 @@ html {
     cursor: pointer;
     height: 5vh;
     margin-bottom: 8px;
-    padding: 5px 10px;
+    padding: 5px;
     display: flex;
 }
 
@@ -101,4 +99,34 @@ html {
     height: 50vh;
     width: 20vw;
     border-radius: 5px;
+}
+
+@media (max-width: 1400px) {
+    #taskcreate button {
+        width: 100px;
+        height: 46px;
+    }
+    #taskcreate input {
+        height: 2vh;
+    }
+}
+
+@media (max-width: 1180px) {
+    #taskcreate button {
+        width: 90px;
+        height: 45px;
+    }
+    #taskcreate input {
+        width: 274px;
+    }
+}
+
+@media (max-width: 960px) {
+    #taskcreate button {
+        width: 80px;
+        height: 45px;
+    }
+    #taskcreate input {
+        width: 240px;
+    }
 }
